@@ -1,0 +1,37 @@
+
+#Linha {
+    border-bottom: 2px	solid	#333333;
+}
+
+#historia-banda	{
+    float:	left;
+    margin: 0 0 10px 10px;
+}
+
+figure	{
+    padding: 15px;
+    margin: 30px;
+}
+figcaption	{
+    margin-top: 5px;
+}
+
+body	
+{
+    margin-left:	auto;
+    margin-right:	auto;
+    width: 940px;
+}
+figure {
+    background-color: #F2EDED;
+    border: 1px	solid	#ccc;
+    text-align:	center;
+}
+
+figcaption {
+    font-style:	italic;
+}
+
+table, td {
+    border: 1px solid black;
+  }

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Getulio de souza mendes - Formulario</title>
+</head>
+
+<body>
+    <h2>Formulario de Cadastro</h2>
+    <form action='servidor.php' method='GET'>
+        <p>*Nome Completo:
+            <input type="text"  required="true" name="nomeCom" placeholder="Informe seu nome completo">
+            <br>
+        </p>
+        <p>E-mail
+            <input type="email" name="nomeCompleto" placeholder="Informe um e-mail válido">
+            <br>
+        </p>
+
+        
+            <p> Sexo:
+                <input type="radio" nome="sexo" id="masculino" value="Maculino">
+                <label for="masculino">Masculino</label>
+                <input type="radio" nome="sexo" id="feminino" value="Feminino">
+                <label for="feminino">Feminino</label>
+            </p>
+        
+            <p> Data de nascimento:
+         <input type="text" name="dataNascimento" placeholder="DD/MM/AA">
+
+            </p>
+
+        <p> Grau de escolaridade:
+            <select name='tamanho_tabela' size '1'>
+                <option value="Ensm">Ensino Médio</option>
+                <option value="Superc" selected='true'>Superior Completo</option>
+                <option value="Posg">Pós-graduação</option>
+                <option value="Mest">Mestrado</option>
+                <option value="Dout">Doutorado"</option>
+            </select>
+        </p>
+
+        <p>Estilos Músicas Preferidos
+            <select name="estiloMu" id="estiloMu" multiple size='5'>
+                <option value="rock">Rock</option>
+                <option value="funk">Funk</option>
+                <option value="samba">Samba</option>
+                <option value="pagode">Pagode</option>
+                <option value="pop">Pop</option>
+            </select>
+        </p>
+
+        <p>Nome de usuário:
+            <input type="text" name="nomeUsuario" placeholder="Informe seu usuario">
+            <br>
+        </p>
+        <p>Senha:
+            <input type="password" name="senha" placeholder="Informe seua Senha">
+            <br>
+        </p>
+
+
+
+        <p> Cor Preferida:
+            <input required type='color' name="cor">
+        </p>
+
+        <p>
+            Quantidade de filhos:
+            <input type="number" name="quantfilohs" placeholder>
+            <br>  
+        </p>
+        <p>
+            Quantidade de veiculos:
+            <input type="range" id="a" name="a" value="5"> 5
+            <br>  
+        </p>
+
+        
+
+        <p> Cpmentários sobre o site:
+            <textarea name="textao" id="textao" cols="30" rows="10">Digite seu comentario aqui
+                </textarea> </p>
+        </p>
+        <p>
+            <input type='checkbox' name='oferta' id='oferta'> Deseja receber ofertas via e-mail ?
+        </p>
+
+        <input type="submit" value='Enviar'>
+        <input type="reset" value='Recomeçar'>
+
+    </form>
+
+</body>
+
+</html>
